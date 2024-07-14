@@ -1,0 +1,120 @@
+.MC {
+    margin-left: 100px;
+    padding: 20px;
+    background-color: transparent;
+    width: 600px; 
+    height: 500px; 
+  }
+  
+  .MC h2 {
+    font-size: 48px; /* Размер заголовка "Hello, My name" */
+    margin-bottom: 10px;
+  }
+  
+  .MC p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .MC button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px; /* Закругленные края */
+    cursor: pointer;
+  }
+  
+  .MC button:hover {
+    background-color: #e64a19;
+  }
+  
+  .about-experience-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #3a3a3a; /* Более темный фон для раздела "About me" */
+  }
+  
+  .about-section {
+    width: 60%;
+  }
+  
+  .about-image {
+    width: 35%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-image img {
+    width: 100%;
+    border: 2px solid orange; /* Добавляем рамку вокруг изображения */
+  }
+  
+  .about-section h2 {
+    font-size: 48px; /* Размер заголовка "About me" */
+    margin-bottom: 10px;
+  }
+  
+  .about-section p,
+  .about-section ul {
+    font-size: 18px; /* Размер остальных текстов */
+  }
+  
+  .about-section ul li {
+    font-size: 18px;
+    margin-bottom: 15px; /* Увеличиваем пространство между элементами списка */
+  }
+  
+  .experience-section {
+    display: flex;
+    padding: 20px;
+    background-color: #3a3a3a; /* Более темный фон для раздела "Experience" */
+  }
+  
+  .experience-image {
+    width: 35%;
+    margin-right: 20px;
+  }
+  
+  .experience-image img {
+    width: 100%;
+    border: 2px solid orange; /* Добавляем рамку вокруг изображения */
+  }
+  
+  .experience-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right; 
+  }
+  
+  .experience-section h2 {
+    font-size: 48px; /* Размер заголовка "Experience" */
+    margin-bottom: 10px;
+  }
+  
+  .experience-item {
+    margin-bottom: 20px;
+  }
+  
+  .experience-item h3,
+  .experience-item h4,
+  .experience-item p {
+    font-size: 18px; /* Размер остальных текстов */
+  }
+  
+  .contacts-section {
+    padding: 20px;
+  }
+  
+  .contacts-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .contacts-section p {
+    font-size: 18px;
+  }
+  
